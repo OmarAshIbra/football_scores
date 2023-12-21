@@ -1,0 +1,54 @@
+name: football_scores
+description: A new Flutter application.
+
+publish_to: 'none' 
+
+#1.0.4+5
+version: 1.0.0+0
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  font_awesome_flutter: ^10.5.0
+  google_fonts: ^5.1.0
+  supercharged: ^2.1.1
+
+  readmore: ^2.2.0
+  flutter_svg: ^1.1.6
+  flutter_html: any
+
+
+  intl: ^0.18.0
+  get: ^4.6.5
+  provider: ^6.0.5
+
+  image_picker: ^1.0.1
+  url_launcher: ^6.1.12
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/
+    - assets/images/leagues/
