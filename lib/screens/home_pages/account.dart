@@ -88,7 +88,7 @@ class _AccountPageState extends State<AccountPage> {
               icon: FontAwesomeIcons.twitter,
               onTap: () async {
                 await launchUrl(Uri.dataFromString(
-                    'https://www.linkedin.com/in/mouad-azul-8061a7176/?originalSubdomain=ma'));
+                    'twitter.com'));
               },
             ),
           ),
